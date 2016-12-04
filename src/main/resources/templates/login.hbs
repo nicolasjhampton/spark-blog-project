@@ -1,0 +1,16 @@
+{{#partial "content"}}
+    <section>
+        <div class="container">
+            <div class="password">
+                <form action="/login" method="POST">
+                    <label for="password">Enter Password</label>
+                    <input id="password" type="password" name="password"><br>
+                    <input type="submit" value="Submit" class="button">
+                    <a href="#" class="button button-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </section>
+{{/partial}}
+
+{{> base.hbs }}
